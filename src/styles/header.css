@@ -1,0 +1,44 @@
+#root{
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+header{
+    background-color: #2680c0;
+    color: white;
+    width: 100%
+}
+
+.header-container{
+    display: flex;
+    max-width: 900px;
+    margin: 0 auto;
+    align-items: center;
+    padding: 1.5rem 1rem;
+    justify-content: space-between;
+
+
+}
+.header-name{
+    font-size: 2.3rem;
+    font-weight: 800;
+    
+}
+
+.header-icon{
+    font-size: 1.8rem;
+    position: relative;
+}
+.cart-items-counter{
+    position: absolute;
+    display: grid;
+    place-items: center;
+    width: 22px;
+    height: 22px;
+    font-size: 1.2rem;
+    background-color: #85c6f4;
+    border-radius: 50%;
+    top: -20%;
+    right: -50%;
+
+
+}

@@ -1,0 +1,134 @@
+.cart-title{
+    text-align: center;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    font-weight: 550;
+    margin-top: 3.5rem;
+    margin-bottom: 2.5rem
+}
+
+.cart-main{
+    width: 100%;
+    max-width: 850px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.cart-item{
+    display: flex;
+    padding: 1rem;
+
+}
+.item-img{
+    width: 100px;
+    height: 90px;
+}
+
+.item-info-wrapper{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    gap: .6rem;
+}
+
+.item-amount-control{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+.item-name{
+    text-transform: capitalize;
+    font-weight: 600;
+    letter-spacing: .1rem;
+
+
+}
+.item-price{
+    color: rgb(117, 117, 117);
+    letter-spacing: .1rem;
+    font-weight: 700;
+}
+.item-remove-btn{
+    width: max-content;
+    border: none;
+    font-size: 0.7rem;
+    font-weight: 600;
+    letter-spacing: .15rem;
+    text-transform: uppercase;
+    background-color: transparent;
+    cursor: pointer;
+    color: #2680c0;
+    transition: all 300ms;
+}
+
+.item-remove-btn:hover,
+.item-increase-btn:hover, .item-decrease-btn:hover{
+    color: #85c6f4;
+}
+
+.item-increase-btn, .item-decrease-btn{
+    color: #2680c0;
+    background-color: transparent;
+    border: none;
+    line-height: 0;
+    transition: all 300ms;
+    font-size: 1.8rem;
+    cursor: pointer;
+}
+.item-amount{
+    font-size: 1.5rem;
+}
+
+.cart-total{
+    display: flex;
+    justify-content: space-between;
+    border-top: 2px rgb(39, 39, 39) solid;
+    padding: .5rem 1rem;
+}
+
+.cart-total-title{
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.cart-total-price{
+    font-weight: 600;
+    letter-spacing: .1rem;
+}
+
+
+.cart-clear-btn{
+    display: block;
+    width: max-content;
+    font-size: 1rem;
+    padding: .4rem 1rem;
+    letter-spacing: .18rem;
+    color: rgb(153, 0, 0);
+    text-transform: uppercase;
+    font-weight: 500;
+    background-color: transparent;
+    border: 1px rgb(153, 0, 0) solid;
+    margin: 0 auto;
+    transition: all 300ms;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 3rem;
+
+}
+
+.cart-clear-btn:hover{
+    background-color: rgba(219, 20, 20, 0.623);
+}
+
+.empty-cart{
+    display: block;
+    margin-top: 3rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: center;
+}
